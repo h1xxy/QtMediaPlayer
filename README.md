@@ -1,1 +1,1 @@
-# Metronome
+# QtMediaPlayer
