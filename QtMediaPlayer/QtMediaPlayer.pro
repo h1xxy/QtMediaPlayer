@@ -1,10 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-12-01T19:32:23
+# Project created by QtCreator 2018-12-01T19:57:37
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += network \
+            xml \
+            multimedia \
+            multimediawidgets \
+            widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -26,13 +30,10 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        player.cpp
 
 HEADERS += \
-        mainwindow.h
-
-FORMS += \
-        mainwindow.ui
+        player.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
