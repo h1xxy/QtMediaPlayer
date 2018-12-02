@@ -30,10 +30,18 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        player.cpp
+        player.cpp \
+    histogramwidget.cpp \
+    playercontrols.cpp \
+    playlistmodel.cpp \
+    videowidget.cpp
 
 HEADERS += \
-        player.h
+        player.h \
+    playercontrols.h \
+    playlistmodel.h \
+    videowidget.h \
+    histogramwidget.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
